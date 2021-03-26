@@ -1,5 +1,5 @@
 {
-  "name": "@react-spring/konva",
+  "name": "@react-spring/three-v5",
   "version": "9.0.0",
   "main": "src/index.ts",
   "dependencies": {
@@ -9,13 +9,13 @@
     "@react-spring/types": "link:../../packages/types"
   },
   "peerDependencies": {
-    "konva": ">=2.6",
-    "react": ">=16.8",
-    "react-konva": ">=16.8"
+    "react": ">=16.11",
+    "react-three-fiber": ">=4.0",
+    "three": ">=0.115"
   },
   "devDependencies": {
-    "konva": "~2.6.0",
-    "react-konva": "~16.8.0"
+    "react-three-fiber": "^4.0.0",
+    "three": "^0.115.0"
   },
   "scripts": {
     "build": "rollup -c"

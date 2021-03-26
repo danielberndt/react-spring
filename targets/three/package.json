@@ -1,6 +1,6 @@
 {
   "name": "@react-spring/three",
-  "version": "9.0.0-rc.3",
+  "version": "9.0.0",
   "main": "src/index.ts",
   "dependencies": {
     "@react-spring/animated": "link:../../packages/animated",
@@ -9,13 +9,15 @@
     "@react-spring/types": "link:../../packages/types"
   },
   "peerDependencies": {
+    "@react-three/fiber": ">=6.0",
     "react": ">=16.11",
-    "react-three-fiber": ">=4.0",
-    "three": ">=0.115"
+    "three": ">=0.126"
   },
   "devDependencies": {
+    "@react-three/fiber": "^5.3.15",
+    "@types/three": "^0.126.1",
     "react-three-fiber": "^4.0.0",
-    "three": "^0.115.0"
+    "three": "^0.126.1"
   },
   "scripts": {
     "build": "rollup -c"
